@@ -1,0 +1,41 @@
+name: Build mod jar
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Build
+        run: ./gradlew build --stacktrace
+
+      - name: Upload jar as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: snowmonkeys-jar
+          path: build/libs/*.jar
+
+      - name: Publish jar to the "latest" release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest-build
+          name: Snow Monkeys (latest build)
+          prerelease: true
+          files: build/libs/*.jar
+          body: |
+            Mod jar built automatically from commit ${{ github.sha }}.
+            Put the .jar in your `mods` folder (Minecraft 1.21.1 with NeoForge 21.1.x).
