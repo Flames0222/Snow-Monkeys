@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " S ",
+    "SMS",
+    " S "
+  ],
+  "key": {
+    "S": { "item": "snowmonkeys:onsen_stone" },
+    "M": { "item": "minecraft:magma_block" }
+  },
+  "result": { "id": "snowmonkeys:hot_spring_vent", "count": 1 }
+}

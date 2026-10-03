@@ -1,0 +1,24 @@
+{
+  "entity.snow_monkey.ambient": {
+    "subtitle": "subtitles.snowmonkeys.entity.snow_monkey.ambient",
+    "sounds": [
+      { "name": "minecraft:mob/fox/idle1", "pitch": 1.45 },
+      { "name": "minecraft:mob/fox/idle2", "pitch": 1.5 },
+      { "name": "minecraft:mob/fox/idle3", "pitch": 1.4 }
+    ]
+  },
+  "entity.snow_monkey.hurt": {
+    "subtitle": "subtitles.snowmonkeys.entity.snow_monkey.hurt",
+    "sounds": [
+      { "name": "minecraft:mob/fox/hurt1", "pitch": 1.4 },
+      { "name": "minecraft:mob/fox/hurt2", "pitch": 1.4 }
+    ]
+  },
+  "entity.snow_monkey.death": {
+    "subtitle": "subtitles.snowmonkeys.entity.snow_monkey.death",
+    "sounds": [
+      { "name": "minecraft:mob/fox/death1", "pitch": 1.35 },
+      { "name": "minecraft:mob/fox/death2", "pitch": 1.35 }
+    ]
+  }
+}

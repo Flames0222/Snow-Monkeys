@@ -1,0 +1,15 @@
+{
+  "itemGroup.snowmonkeys": "Snow Monkeys",
+  "entity.snowmonkeys.snow_monkey": "Snow Monkey",
+  "item.snowmonkeys.snow_monkey_spawn_egg": "Snow Monkey Spawn Egg",
+  "item.snowmonkeys.hot_spring_water_bucket": "Hot Spring Water Bucket",
+  "item.snowmonkeys.onsen_egg": "Onsen Egg",
+  "block.snowmonkeys.hot_spring_water": "Hot Spring Water",
+  "fluid_type.snowmonkeys.hot_spring_water": "Hot Spring Water",
+  "block.snowmonkeys.onsen_stone": "Onsen Stone",
+  "block.snowmonkeys.hot_spring_vent": "Hot Spring Vent",
+  "effect.snowmonkeys.warmth": "Warmth",
+  "subtitles.snowmonkeys.entity.snow_monkey.ambient": "Snow Monkey chatters",
+  "subtitles.snowmonkeys.entity.snow_monkey.hurt": "Snow Monkey hurts",
+  "subtitles.snowmonkeys.entity.snow_monkey.death": "Snow Monkey dies"
+}

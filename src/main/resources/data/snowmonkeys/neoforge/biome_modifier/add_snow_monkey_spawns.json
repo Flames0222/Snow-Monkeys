@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#snowmonkeys:snow_monkey_spawns",
+  "spawners": {
+    "type": "snowmonkeys:snow_monkey",
+    "weight": 8,
+    "minCount": 3,
+    "maxCount": 6
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "values": [
+    "minecraft:grass_block",
+    "minecraft:snow",
+    "minecraft:snow_block",
+    "minecraft:podzol",
+    "minecraft:coarse_dirt",
+    "minecraft:dirt",
+    "minecraft:stone",
+    "minecraft:gravel",
+    "minecraft:moss_block",
+    "snowmonkeys:onsen_stone"
+  ]
+}

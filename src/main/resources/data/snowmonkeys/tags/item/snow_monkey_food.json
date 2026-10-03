@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:sweet_berries",
+    "minecraft:glow_berries",
+    "minecraft:apple",
+    "minecraft:wheat",
+    "minecraft:carrot",
+    {
+      "id": "#c:foods/fruit",
+      "required": false
+    }
+  ]
+}

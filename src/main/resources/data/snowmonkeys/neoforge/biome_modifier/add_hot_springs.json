@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#snowmonkeys:has_hot_spring",
+  "features": "snowmonkeys:hot_spring",
+  "step": "lakes"
+}
