@@ -270,6 +270,6 @@ public class SnowMonkey extends Animal implements RangedAttackMob {
 
     @Override
     protected void playStepSound(BlockPos pos, BlockState state) {
-        this.playSound(SoundEvents.FOX_STEP, 0.15F, 1.1F);
+        this.playSound(SoundEvents.WOLF_STEP, 0.15F, 1.1F);
     }
 }
