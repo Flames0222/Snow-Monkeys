@@ -12,3 +12,6 @@ bin/
 .classpath
 .project
 .settings/
+
+# Downloaded/built mod jars in the repo root
+/*.jar
